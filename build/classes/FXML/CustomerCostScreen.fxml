@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: E6E6FA;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="group1_coe528_project.CustomerCostScreen">
+   <children>
+      <Label fx:id="totalCostLabel" layoutX="14.0" layoutY="24.0" prefHeight="30.0" prefWidth="447.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="pointsLabel" layoutX="14.0" layoutY="130.0" prefHeight="30.0" prefWidth="447.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="260.0" layoutY="263.0" mnemonicParsing="false" onAction="#BacktoLogin" prefHeight="30.0" prefWidth="81.0" styleClass="hover-button" stylesheets="@styles.css" text="Logout" />
+   </children>
+</AnchorPane>

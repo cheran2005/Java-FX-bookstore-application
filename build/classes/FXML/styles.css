@@ -1,0 +1,24 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 27, 2025, 8:13:14 p.m.
+    Author     : chera
+*/
+
+
+
+.hover-button {
+    -fx-background-color: white; 
+    -fx-text-fill: black; 
+    -fx-border-color: black; 
+}
+
+
+.hover-button:hover {
+    -fx-background-color:  #FF8488; 
+      
+}
+
+

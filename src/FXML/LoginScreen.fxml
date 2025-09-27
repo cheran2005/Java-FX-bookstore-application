@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="134.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group1_coe528_project.LoginScreen">
+    <children>
+      <AnchorPane layoutX="-3.0" layoutY="149.0" prefHeight="223.0" prefWidth="632.0" style="-fx-background-color: E6E6FA;">
+         <children>
+            <TextField id="usernameField" fx:id="usernameField" layoutX="316.0" layoutY="41.0" prefHeight="25.0" prefWidth="200.0" />
+            <PasswordField id="passwordField" fx:id="passwordField" layoutX="316.0" layoutY="92.0" prefHeight="25.0" prefWidth="200.0" />
+            <Label layoutX="99.0" layoutY="41.0" prefHeight="22.0" prefWidth="184.0" style="-fx-font-family: Garamond;" text="Username:">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="99.0" layoutY="92.0" prefHeight="22.0" prefWidth="184.0" style="-fx-font-family: Garamond;" text="Password:">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Button layoutX="316.0" layoutY="152.0" mnemonicParsing="false" onAction="#LoginCheck" prefHeight="25.0" prefWidth="58.0" text="Login" />
+            <Label id="test" fx:id="test" layoutX="85.0" layoutY="164.0" text="" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" prefHeight="150.0" prefWidth="627.0">
+         <children>
+            <AnchorPane layoutX="2.0" layoutY="-1.0" prefHeight="150.0" prefWidth="630.0" style="-fx-border-color: FF6666; -fx-border-radius: 6px; -fx-background-color: white; -fx-border-width: 5px;">
+               <children>
+                  <Label layoutX="202.0" layoutY="26.0" prefHeight="64.0" prefWidth="227.0" style="-fx-font-family: Garamond; -fx-font-weight: bold;" text="Kevin Reads">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="110.0" layoutY="90.0" prefHeight="30.0" prefWidth="411.0" style="-fx-font-family: Garamond;" text="Where every page turns into an adventure">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="76.0" fitWidth="86.0" layoutX="432.0" layoutY="14.0">
+                     <image>
+                        <Image url="@../Images/logo-pic.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
